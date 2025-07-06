@@ -1,0 +1,44 @@
+2025-07-05 15:36:59,439 - INFO - Recording started
+2025-07-05 15:37:11,071 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 15:37:13,423 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV "HTTP/1.1 200 OK"
+2025-07-05 15:37:23,366 - INFO - Recording started
+2025-07-05 15:37:42,708 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 15:37:46,091 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV "HTTP/1.1 200 OK"
+2025-07-05 15:38:05,772 - INFO - Recording started
+2025-07-05 15:40:18,365 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 15:40:21,433 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV "HTTP/1.1 200 OK"
+2025-07-05 15:41:09,757 - INFO - Recording started
+2025-07-05 15:41:20,108 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 15:41:22,874 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV "HTTP/1.1 200 OK"
+2025-07-05 15:41:37,193 - INFO - Recording started
+2025-07-05 15:43:21,533 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 15:43:24,282 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV "HTTP/1.1 200 OK"
+2025-07-05 15:43:39,541 - INFO - Recording started
+2025-07-05 15:48:07,683 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 15:48:09,607 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV "HTTP/1.1 200 OK"
+2025-07-05 15:48:17,404 - INFO - Recording started
+2025-07-05 15:49:23,850 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 15:49:24,468 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV "HTTP/1.1 401 Unauthorized"
+2025-07-05 15:49:24,469 - ERROR - TTS failed: headers: {'date': 'Sat, 05 Jul 2025 10:19:23 GMT', 'server': 'uvicorn', 'content-length': '172', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'POST, PATCH, OPTIONS, DELETE, GET, PUT', 'access-control-max-age': '600', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'x-trace-id': '0438a950c98f8bcf53e741221bc12037', 'x-region': 'us-central1', 'via': '1.1 google, 1.1 google', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'}, status_code: 401, body: {'detail': {'status': 'quota_exceeded', 'message': 'This request exceeds your quota of 10000. You have 35 credits remaining, while 190 credits are required for this request.'}}
+2025-07-05 15:49:24,590 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Projects\\testing\\voiceai\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-07-05 15:49:24,590 - INFO - Using writeable comtypes cache directory: 'C:\Projects\testing\voiceai\.venv\Lib\site-packages\comtypes\gen'
+2025-07-05 15:49:36,313 - INFO - Recording started
+2025-07-05 15:50:10,853 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 15:50:11,470 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV "HTTP/1.1 401 Unauthorized"
+2025-07-05 15:50:11,471 - ERROR - TTS failed: headers: {'date': 'Sat, 05 Jul 2025 10:20:10 GMT', 'server': 'uvicorn', 'content-length': '172', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'POST, PATCH, OPTIONS, DELETE, GET, PUT', 'access-control-max-age': '600', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'x-trace-id': '5d338ca19c90957ed58179f9b21eb162', 'x-region': 'us-central1', 'via': '1.1 google, 1.1 google', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'}, status_code: 401, body: {'detail': {'status': 'quota_exceeded', 'message': 'This request exceeds your quota of 10000. You have 35 credits remaining, while 160 credits are required for this request.'}}
+2025-07-05 15:50:21,897 - INFO - Recording started
+2025-07-05 15:50:31,332 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 15:50:32,149 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV "HTTP/1.1 401 Unauthorized"
+2025-07-05 15:50:32,153 - ERROR - TTS failed: headers: {'date': 'Sat, 05 Jul 2025 10:20:31 GMT', 'server': 'uvicorn', 'content-length': '172', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'POST, PATCH, OPTIONS, DELETE, GET, PUT', 'access-control-max-age': '600', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'x-trace-id': '1d5ac5e6e34279f31c2597a4461a3a3b', 'x-region': 'us-central1', 'via': '1.1 google, 1.1 google', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'}, status_code: 401, body: {'detail': {'status': 'quota_exceeded', 'message': 'This request exceeds your quota of 10000. You have 35 credits remaining, while 474 credits are required for this request.'}}
+2025-07-05 15:51:01,128 - INFO - Recording started
+2025-07-05 16:22:37,597 - INFO - Recording started
+2025-07-05 16:22:53,288 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 16:22:54,044 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV "HTTP/1.1 401 Unauthorized"
+2025-07-05 16:22:54,050 - ERROR - TTS failed: headers: {'date': 'Sat, 05 Jul 2025 10:52:54 GMT', 'server': 'uvicorn', 'content-length': '172', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'POST, PATCH, OPTIONS, DELETE, GET, PUT', 'access-control-max-age': '600', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'x-trace-id': '43d43772774ca9076863fc185f0e05ac', 'x-region': 'us-central1', 'via': '1.1 google, 1.1 google', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'}, status_code: 401, body: {'detail': {'status': 'quota_exceeded', 'message': 'This request exceeds your quota of 10000. You have 35 credits remaining, while 164 credits are required for this request.'}}
+2025-07-05 16:22:54,167 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Projects\\testing\\voiceai\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-07-05 16:22:54,167 - INFO - Using writeable comtypes cache directory: 'C:\Projects\testing\voiceai\.venv\Lib\site-packages\comtypes\gen'
+2025-07-05 16:23:04,858 - INFO - Recording started
+2025-07-05 16:23:21,521 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 16:23:22,374 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV "HTTP/1.1 401 Unauthorized"
+2025-07-05 16:23:22,374 - ERROR - TTS failed: headers: {'date': 'Sat, 05 Jul 2025 10:53:21 GMT', 'server': 'uvicorn', 'content-length': '172', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'POST, PATCH, OPTIONS, DELETE, GET, PUT', 'access-control-max-age': '600', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'x-trace-id': '73231364f5e01173e40592f836ed0934', 'x-region': 'us-central1', 'via': '1.1 google, 1.1 google', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'}, status_code: 401, body: {'detail': {'status': 'quota_exceeded', 'message': 'This request exceeds your quota of 10000. You have 35 credits remaining, while 298 credits are required for this request.'}}
+2025-07-05 16:23:38,980 - INFO - Recording started

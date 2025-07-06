@@ -1,0 +1,10 @@
+openai>=1.12.0
+openai-whisper>=20231117
+pyaudio>=0.2.13
+numpy>=1.26.2
+elevenlabs>=0.2.23
+pydub>=0.25.1
+simpleaudio>=1.0.4
+python-dotenv>=1.0.0
+pyttsx3>=2.90
+sounddevice>=0.4.6
