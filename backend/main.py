@@ -11,7 +11,7 @@ from config import config
 
 async def voice_chat():
     print("\n🎙️ Advanced VoiceAI Assistant")
-    print("============================")
+    print("==========================")
     print("Press Ctrl+C to exit\n")
     
     while True:
