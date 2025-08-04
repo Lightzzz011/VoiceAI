@@ -22,7 +22,6 @@ async def voice_chat():
                 print("⚠️ Recording failed. Try again.")
                 continue
 
-            # Convert to text
             user_text = speech_to_text(audio_file)
             if not user_text:
                 print("⚠️ No speech detected. Try again.")
@@ -30,21 +29,19 @@ async def voice_chat():
 
             print(f"\n👤 You: {user_text}")
             
-            # Get AI response
             ai_response = get_ai_response(user_text)
             print(f"🤖 AI: {ai_response}")
             
-            # Prepare and speak response
             reply = make_spoken_reply(ai_response)
             text_to_speech(reply)
 
         except KeyboardInterrupt:
-            print("\n👋 Exiting VoiceAI. Goodbye!")
+            print("\n Exiting VoiceAI. Goodbye!")
             break
         except Exception as e:
             logging.error(f"Main loop error: {e}")
             print(f"❌ An error occurred: {e}")
-            await asyncio.sleep(1)  # Prevent tight error loop
+            await asyncio.sleep(1) 
 
 if __name__ == "__main__":
     try:
