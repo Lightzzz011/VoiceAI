@@ -19,7 +19,7 @@ async def voice_chat():
             # Record user audio
             audio_file = record_audio()
             if not audio_file:
-                print("⚠ Recording failed. Try again.")
+                print("⚠️ Recording failed. Try again.")
                 continue
 
             # Convert to text
