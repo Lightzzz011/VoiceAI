@@ -8,7 +8,7 @@ load_dotenv()
 
 @dataclass
 class AudioConfig:
-    SAMPLE_RATE: int = 16000
+    SAMPLE_RATE: int = 16000 
     CHUNK_SIZE: int = 1024
     FORMAT: int = pyaudio.paInt16
     CHANNELS: int = 1
