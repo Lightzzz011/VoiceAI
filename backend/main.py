@@ -33,7 +33,7 @@ async def voice_chat():
             # Get AI response
             ai_response = get_ai_response(user_text)
             print(f"🤖 AI: {ai_response}")
-            
+             
             # Prepare and speak response
             reply = make_spoken_reply(ai_response)
             text_to_speech(reply)
